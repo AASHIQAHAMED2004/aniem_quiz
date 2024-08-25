@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546131.jpg?t=st=1724567729~exp=1724571329~hmac=94c6cbf697a07ad8c2e0625a87e9065371a3f117ff9b7a24205c47264034a775&w=1380"); 
+    background-color: rgb(13,44,139); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 0; 
+    padding: 0;
+}
+
+.main{
+    background-color: azure;
+    width: 80;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+}
+
+#head{
+    font-weight: 600;
+    color: black;
+    border-bottom: 1px solid gray;
+    padding: 20px ;
+    padding: 10px;
+}
+
+.quiz{
+    padding: 20px 0 ;
+}
+
+#question{
+    font-weight: 600;
+    margin: 10px 3% ;
+
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 90%;
+    padding: 10px ;
+    border: 1px solid black;
+    margin: 10px 5% ;
+    text-align: left ;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+
+}
+
+.btn:hover:not([disabled]){
+    background-color: rgba(0, 0, 0, 0.747);
+    color: whitesmoke;
+
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next{
+    background-color: royalblue;
+    color: black;
+    font-weight: 500;
+    width: 150;
+    padding: 10px;
+    border: 0;
+    margin: 20px auto 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none ;
+}
+
+.correct{
+    background-color: greenyellow;
+}
+
+.incorrect{
+    background-color: red;
+}
